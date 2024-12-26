@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Tyrosteller # the main title
 
-tagline: tyros developer's story telling # it will display as the subtitle
+tagline: tyro developer's story telling # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Tyrosteller: which chronicles the journey in the minds of beginners. It tells the story of developers' skill learning and growth.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 # cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/watermark.jpeg"
+avatar: "/assets/img/watermark.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
