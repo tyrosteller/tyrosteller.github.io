@@ -2,83 +2,50 @@
 <div align="center">
 
   <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+  # Tyros를 이야기하는 Teller
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
-
-  [**Live Demo** →][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
-
+  Story는 그 자체로 목적이자 과정이고 결과이다
 </div>
 
-## Features
+게으른 완벽주의자들
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
+<br>
 
-## Documentation
+이 블로그의 정체성 같은 한 문장일 것 같다.
+웹 개발자로 일하면서 지금까지 많은 개발자분들을 만났다고 자부하진 못 하지만, 개발의 꿈도 있고 의욕도 있는 분들 중 생각보다 많은 사람들이 이런 게으른 완벽주의자적 성향을 가졌다고 생각된다
+> 물론 나를 포함하는 이야기다
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+어느 정도 실무도 진행하셨고 어느 정도 기본 사이클이나 웹이 어떻게 돌아가는지 기본 원리 정도는 알고 있어서, 다른 언어 또는 프레임워크에 적응하는 것도 크게 두려워하지 않고 공부하려고 하는데
+머리속으로 적당히 그림이 그려지다보니 안일해지는 경우가 있거나, 처음보는 기술에 흥미는 있어도 정확히 알고 시도하려는 마음이 커서 첫 삽을 뜨기까지 오래걸리는 경우가 많았다.
 
-## Contributing
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+> 개인적 견해일 뿐 일반화는 없길 바란다, 물론 내가 저분들 만큼 뭔가 잘 안다고 말하는 것도 아니다.
+{: .prompt-warning }
 
-## Credits
+<br>
 
-### Contributors
+그런 나에게 지금 필요한 것은 일단 시작하기, 그리고 빨리 시도하고 빨리 실패하기 그렇게 하나하나씩 공부를 해나가야한다는 것, 옛날에도 지금에도 결국 시도해보고 실패했던 경험이 지금 내 실력을 만드는 가장 중요한 일이었다는걸 다시 한번 생각했다.
 
-Thanks to [all the contributors][contributors] involved in the development of the project!
+내가 완벽하기를 바라고 개발을 했던 프로젝트들은 개인적인 만족감은 엄청났지만 결국 생산성은 절반이었고, 새로운 기술이나 새로운 개발론에 의해 뒤집히기 전에 먼저 이미 그 자체만으로도 완벽하지 못했다.
 
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+이런면이 나쁜것만은 아니지만 효율적임과는 거리가 멀었다는걸, 내가 실무를 하는데 충분한 실력이었다 하더라도 완벽할 순 없다는걸 몇 번이고 다시 느낀다
 
-### Third-Party Assets
+그러니까 나는 완벽이아닌 빠른 시도를 위해 이곳에 글을 쓸 생각이다, 나와 같은 초보 개발자들을 위한 이야기가 될 수 있길 바라며..  
 
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+<br>
 
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+## 완벽 보단 완성
 
-## License
+<br>
 
-This project is published under [MIT License][license].
+빠르게 변하는 트렌드 속에서 일단 우린 일을 할 수 있을 정도로 실력있는 "사용자"가 되어야 한다.
+물론 진짜 프로덕트를 소비하는 사용자가 아닌, 이미 엄청난 실력자들이 만들어준 언어, 프레임워크들의 사용자가 되어야한다. 기업이 원하는건 일단은 안정적인 퀄리티와 생산성이기 때문이다.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+요즘은 프롬프트만 잘 써도 나 보다 더 많은 것을 고려해서 코드를 만들어주는 엄청난 AI들이 존재하는 시대다.
+> 물론 아직까지 전체를 다 만들어주는건 아니지만 큰 도움을 받을 수 있다. 뭐.. 법적문제도 많을거고..
+
+내가 이 시점에 미들레인지를 목표로 노력하는 것 또한 어불성설이겠지만, 그마저도 안된다면 AI에 의해 직업을 잃는 선두주자가 되리라 생각한다..
+그러니까.. 이곳에 시도하는 무언가들은 목표가 아닌 기본이 되어야할 것을 뒤늦게라도 시작하는 나의 기록들, 실수 투성이에 부족한 것도 많겠지만 이런 기본적인 것들을 완성해나가는 과정이다
+> 굳이..? 혼자 공부하면 될텐데 왜 이렇게 글을 쓰는가?
+
+회사, 프로젝트에 참여해 일을 할 땐 그 자체만으로도 강제성이 어느정도 부여된다. 약간의 긴장과 책임감이 나를 가장 잘 움직이는 원동력이라는걸 알기에, 공개적인 장소에 글을 쓴다는 행위로 강제성을 조금 부여해 보려는 것
