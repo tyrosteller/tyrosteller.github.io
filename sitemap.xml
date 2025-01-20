@@ -1,0 +1,64 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- assign root_page = site.pages | where: "url", "/" -%}
+  {%- assign post_pages = site.pages | where_exp: "page", "page.url contains '/post/'" -%}
+
+  {%- assign filtered_pages = root_page | concat: post_pages -%}
+
+  {%- for page in filtered_pages -%}
+    <url>
+      <loc>{{ site.url }}{{ page.url | escape }}</loc>
+      <lastmod>
+        {%- if page.last_modified_at -%}
+          {{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+        {%- else -%}
+          {{ page.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+        {%- endif -%}
+      </lastmod>
+    </url>
+  {%- endfor -%}
+
+  {%- for post in site.posts -%}
+    {% unless post.sitemap == false %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | escape }}</loc>
+      <lastmod>
+        {%- if post.last_modified_at -%}
+          {{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+        {%- else -%}
+          {{ post.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+        {%- endif -%}
+      </lastmod>
+    </url>
+    {% endunless %}
+  {%- endfor -%}
+</urlset>
+<!-- -
+layout: none
+-
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- assign root_page = site.pages | where: "url", "/" -%}
+  {%- assign post_pages = site.pages | where_exp: "page", "page.url contains '/post/'" -%}
+
+  {%- assign filtered_pages = root_page | concat: post_pages -%}
+
+  {%- for page in filtered_pages -%}
+    <url>
+      <loc>{{ site.url }}{{ page.url | escape }}</loc>
+      <lastmod>{{ page.last_modified_at | date: "%Y-%m-%d" }}</lastmod>
+    </url>
+  {%- endfor -%}
+
+  {%- for post in site.posts -%}
+    {% unless post.sitemap == false %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | escape }}</loc>
+      <lastmod>{{ post.last_modified_at | date: "%Y-%m-%d" }}</lastmod>
+    </url>
+    {% endunless %}
+  {%- endfor -%}
+</urlset> -->
