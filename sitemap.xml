@@ -11,13 +11,6 @@ layout: none
   {%- for page in filtered_pages -%}
     <url>
       <loc>{{ site.url }}{{ page.url | escape }}</loc>
-      <lastmod>
-        {%- if page.last_modified_at -%}
-          {{ page.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%:z" }}
-        {%- else -%}
-          {{ page.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}
-        {%- endif -%}
-      </lastmod>
     </url>
   {%- endfor -%}
 
