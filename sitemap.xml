@@ -11,6 +11,7 @@ layout: none
   {%- for page in filtered_pages -%}
     <url>
       <loc>{{ site.url }}{{ page.url | escape }}</loc>
+      <lastmod>2025-01-01</lastmod>
     </url>
   {%- endfor -%}
 
@@ -20,9 +21,9 @@ layout: none
       <loc>{{ site.url }}{{ post.url | escape }}</loc>
       <lastmod>
         {%- if post.last_modified_at -%}
-          {{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+          {{ post.last_modified_at | date: "%Y-%m-%d" }}
         {%- else -%}
-          {{ post.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}
+          {{ post.date | date: "%Y-%m-%d" }}
         {%- endif -%}
       </lastmod>
     </url>
