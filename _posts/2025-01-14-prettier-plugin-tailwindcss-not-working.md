@@ -114,7 +114,7 @@ tailwind config의 위치를 못 잡나 싶어서 tailwind.config.ts의 위치�
 
 **downgrade**
 
-```json
+```
 "prettier": "^3.4.2",
 "prettier-plugin-tailwindcss": "^0.6.9",
 ```
@@ -149,9 +149,9 @@ prettierrc 파일을 확장자 없이 사용하고 있지 않아서 딱히 생�
 ---
 
 * 이슈 참고
-	https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/186
-	https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/191
-	https://blueprint-12.tistory.com/423
-	https://stackoverflow.com/questions/75628944/prettier-tailwind-plugin-isnt-working-as-expected-when-i-hit-save-in-vscode
+	* https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/186
+	* https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/191
+	* https://blueprint-12.tistory.com/423
+	* https://stackoverflow.com/questions/75628944/prettier-tailwind-plugin-isnt-working-as-expected-when-i-hit-save-in-vscode
 
 
