@@ -2,7 +2,7 @@
 title: "[FastAPI] Poetry 를 사용해서 FastAPI 설치 및 프로젝트 구성!"
 date: 2025-01-26 18:16:00 +0900
 author: tyrosteller
-categories: [Dev-FastAPI]
+categories: [Dev-Python, FastAPI]
 tags: [project-COOTTE, python, poetry, FastAPI]
 ---
 
