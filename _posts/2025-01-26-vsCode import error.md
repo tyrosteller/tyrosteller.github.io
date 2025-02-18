@@ -1,8 +1,8 @@
 ---
-title: "[Issue] vscode fastapi could not be resolved ( poetry )"
+title: "[Trouble-Shooting] vscode fastapi could not be resolved ( poetry )"
 date: 2025-01-26 20:32:00 +0900
 author: tyrosteller
-categories: [Dev-Python]
+categories: [Dev-Trouble-Shooting]
 tags: [project-COOTTE, vscode, python, poetry, virtualenv]
 ---
 
